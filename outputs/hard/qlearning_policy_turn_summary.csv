@@ -1,0 +1,4 @@
+﻿turn,steps,actions,enemy_move,enemy_attack_intent,enemy_block_intent,enemy_strength_intent,player_hp_start,player_hp_end,nibbit_hp_start,nibbit_hp_end,player_block_start,enemy_block_start,enemy_block_end,enemy_strength_start,enemy_strength_end,enemy_vulnerable_start,enemy_vulnerable_end,damage_dealt_total,damage_taken_total,reward_total,done,win
+1,0 -> 1 -> 2 -> 3,Strike -> Strike -> Strike -> End Turn,Nibbit Turn 1: Attack 12,12,0,0,64,52,48,30,0,0,0,0,0,0,0,18.0,12.0,5.8,False,False
+2,4 -> 5 -> 6,Bash -> Strike -> End Turn,Nibbit Turn 2: Attack 6 + Block 5,6,5,0,52,46,30,13,0,0,5,0,0,0,1,17.0,6.0,10.85,False,False
+3,7 -> 8,Strike -> Bash,Nibbit Turn 3: Gain Strength 2,0,0,2,46,46,13,0,0,5,0,0,0,1,2,16.0,0.0,115.9,True,True
